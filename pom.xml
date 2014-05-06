@@ -30,8 +30,8 @@
     </licenses>
 
     <scm>
-        <url>scm:git://github.com/robert-bor/aho-corasick</url>
-        <connection>scm:git://github.com/robert-bor/aho-corasick</connection>
+        <developerConnection>scm:git@github.com:phillipsinger/aho-corasick.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
     <distributionManagement>
         <repository>
