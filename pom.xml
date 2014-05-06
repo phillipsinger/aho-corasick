@@ -30,7 +30,7 @@
     </licenses>
 
     <scm>
-        <developerConnection>scm:git@github.com:phillipsinger/aho-corasick.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:phillipsinger/aho-corasick.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
     <distributionManagement>
