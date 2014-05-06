@@ -3,3 +3,7 @@
 src/main/java/Main.java
 *.txt
 docs
+target
+.project
+.classpath
+.settings
