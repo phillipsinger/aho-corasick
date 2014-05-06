@@ -33,6 +33,16 @@
         <url>scm:git://github.com/robert-bor/aho-corasick</url>
         <connection>scm:git://github.com/robert-bor/aho-corasick</connection>
     </scm>
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <url>http://n7vgd1tosvcmvn01.general.disney.private:8080/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <url>http://n7vgd1tosvcmvn01.general.disney.private:8080/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <developers>
         <developer>
@@ -78,8 +88,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.6</source>
+                    <target>1.6</target>
                 </configuration>
             </plugin>
 
